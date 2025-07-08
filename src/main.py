@@ -1,10 +1,12 @@
 import os
 
-_version="0.0.1"
+
+_version = "0.0.1"
 
 def main():
-    print("Hello World!")
+    user = os.getuid()
+    print(f"Hello {user}!")
+
 
 if __name__ == "__main__":
     main()
-
