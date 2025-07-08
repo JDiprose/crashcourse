@@ -1,6 +1,6 @@
 import os
 
-_version=0.0.1
+_version="0.0.1"
 
 def main():
     print("Hello World!")
